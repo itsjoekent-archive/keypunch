@@ -1,6 +1,9 @@
 const console = require('../index');
+
+console.log('log test', console);
+
 console.addHeaderFunction((type) => `[MyPackage (${type})] `);
-console.addHeaderFunction((type) => new Date().toString());
+console.addHeaderFunction((type) => new Date().toString() + '\n');
 
 console.debug('debug test', console);
 console.log('log test', console);

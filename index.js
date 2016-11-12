@@ -48,7 +48,6 @@ function shouldLog(logLevel, type) {
 function generateLogHeader(type) {
   let header = '';
   headerGenerators.forEach(generator => header += generator(type));
-  header += '\n';
   return colors[logLevels[type].color](header);
 }
 
