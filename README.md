@@ -5,7 +5,7 @@ NodeJS Logging Module without the fancy bits.
 `npm install keypunch --save`
 
 ```
-const console = require('../index');
+const console = require('keypunch');
 console.log("Hey it works!", "oh thats sick");
 ```
 
