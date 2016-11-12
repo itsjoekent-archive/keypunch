@@ -1,0 +1,26 @@
+{
+  "name": "keypunch",
+  "version": "1.0.0",
+  "description": "NodeJS Logging Module without the fancy bits. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deadlybutter/keypunch.git"
+  },
+  "keywords": [
+    "logging",
+    "logs"
+  ],
+  "author": "Joe Kent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deadlybutter/keypunch/issues"
+  },
+  "homepage": "https://github.com/deadlybutter/keypunch#readme",
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}
