@@ -27,7 +27,7 @@ console.log("Hey it works!", "oh thats sick");
 Each log function has an assigned level. When initiating your app remember to set the Keypunch log level.
 
 ```
-const console = require('../index');
+const console = require('keypunch');
 console.logLevel = 3;
 ...
 console.debug("testing the request fired", req); // Won't fire a log message
