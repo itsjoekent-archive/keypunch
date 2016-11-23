@@ -1,6 +1,6 @@
 "use strict";
 
-const colors = require('colors/safe');
+const chalk = require('chalk');
 
 const logLevels = {
   debug: {
@@ -48,7 +48,7 @@ function shouldLog(logLevel, type) {
 function generateLogHeader(type) {
   let header = '';
   headerGenerators.forEach(generator => header += generator(type));
-  return colors[logLevels[type].color](header);
+  return chalk[logLevels[type].color](header);
 }
 
 const gatewayConsole = {
