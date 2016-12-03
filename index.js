@@ -52,7 +52,7 @@ function generateLogHeader(type) {
 }
 
 const gatewayConsole = {
-  logLevel: 1,
+  logLevel: parseInt(process.env.LOG_LEVEL) || 1,
 
   /**
    * Add a function which runs on every log.

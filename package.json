@@ -1,6 +1,6 @@
 {
   "name": "keypunch",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "NodeJS Logging Module without the fancy bits. ",
   "main": "index.js",
   "scripts": {

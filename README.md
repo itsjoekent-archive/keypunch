@@ -24,7 +24,7 @@ console.log("Hey it works!", "oh thats sick");
 
 
 ### Log Levels
-Each log function has an assigned level. When initiating your app remember to set the Keypunch log level.
+Each log function has an assigned level. When initiating your app remember to set the Keypunch log level, either with `process.env.LOG_LEVEL` or via JS as shown below.
 
 ```
 const console = require('keypunch');
@@ -33,6 +33,7 @@ console.logLevel = 3;
 console.debug("testing the request fired", req); // Won't fire a log message
 ```
 
+#### Levels
 `debug` - 1
 
 `log` - 2
